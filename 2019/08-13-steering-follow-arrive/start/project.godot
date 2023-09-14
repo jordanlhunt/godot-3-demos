@@ -18,6 +18,10 @@ config/name="Steering behaviors: Follow and Arrive (start)"
 run/main_scene="res://src/Game.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Steering="*res://src/Autoload/Steering.gd"
+
 [input]
 
 click={
